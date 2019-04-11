@@ -1,0 +1,143 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DOBRIC\\source\\repos\\eVoucherGDPR\\eVoucherGDPR\\eVoucherGDPR.iOS\\eVoucherGDPR.iOS.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DOBRIC\\source\\repos\\eVoucherGDPR\\eVoucherGDPR\\eVoucherGDPR.iOS\\eVoucherGDPR.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DOBRIC\\source\\repos\\eVoucherGDPR\\eVoucherGDPR\\eVoucherGDPR.iOS\\eVoucherGDPR.iOS.csproj",
+        "projectName": "eVoucherGDPR.iOS",
+        "projectPath": "C:\\Users\\DOBRIC\\source\\repos\\eVoucherGDPR\\eVoucherGDPR\\eVoucherGDPR.iOS\\eVoucherGDPR.iOS.csproj",
+        "packagesPath": "C:\\Users\\DOBRIC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DOBRIC\\source\\repos\\eVoucherGDPR\\eVoucherGDPR\\eVoucherGDPR.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DOBRIC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "C:\\Users\\DOBRIC\\source\\repos\\eVoucherGDPR\\eVoucherGDPR\\eVoucherGDPR\\eVoucherGDPR.csproj": {
+                "projectPath": "C:\\Users\\DOBRIC\\source\\repos\\eVoucherGDPR\\eVoucherGDPR\\eVoucherGDPR\\eVoucherGDPR.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.6.0.264807, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\DOBRIC\\source\\repos\\eVoucherGDPR\\eVoucherGDPR\\eVoucherGDPR\\eVoucherGDPR.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DOBRIC\\source\\repos\\eVoucherGDPR\\eVoucherGDPR\\eVoucherGDPR\\eVoucherGDPR.csproj",
+        "projectName": "eVoucherGDPR",
+        "projectPath": "C:\\Users\\DOBRIC\\source\\repos\\eVoucherGDPR\\eVoucherGDPR\\eVoucherGDPR\\eVoucherGDPR.csproj",
+        "packagesPath": "C:\\Users\\DOBRIC\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DOBRIC\\source\\repos\\eVoucherGDPR\\eVoucherGDPR\\eVoucherGDPR\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\ProgramData\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DOBRIC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Rg.Plugins.Popup": {
+              "target": "Package",
+              "version": "[1.1.5.188, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[3.6.0.264807, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

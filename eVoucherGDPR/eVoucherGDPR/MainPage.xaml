@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:eVoucherGDPR"
+            xmlns:local1="clr-namespace:eVoucherGDPR.Pages"
+            x:Class="eVoucherGDPR.MainPage"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            android:TabbedPage.BarItemColor="Black"
+            android:TabbedPage.BarSelectedItemColor="Red">
+
+    <local1:HomePage></local1:HomePage>
+    <local1:AliasPage></local1:AliasPage>
+    <local1:HelpPage></local1:HelpPage>
+
+</TabbedPage>

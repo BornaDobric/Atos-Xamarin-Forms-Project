@@ -1,0 +1,16 @@
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR\bin\Debug\netstandard2.0\eVoucherGDPR.deps.json
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR\bin\Debug\netstandard2.0\eVoucherGDPR.dll
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR\bin\Debug\netstandard2.0\eVoucherGDPR.pdb
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR\obj\Debug\netstandard2.0\eVoucherGDPR.csprojAssemblyReference.cache
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR\obj\Debug\netstandard2.0\Pages\AliasPage.xaml.g.cs
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR\obj\Debug\netstandard2.0\Pages\HelpPage.xaml.g.cs
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR\obj\Debug\netstandard2.0\Pages\HomePage.xaml.g.cs
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR\obj\Debug\netstandard2.0\eVoucherGDPR.csproj.CoreCompileInputs.cache
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR\obj\Debug\netstandard2.0\eVoucherGDPR.AssemblyInfoInputs.cache
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR\obj\Debug\netstandard2.0\eVoucherGDPR.AssemblyInfo.cs
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR\obj\Debug\netstandard2.0\eVoucherGDPR.dll
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR\obj\Debug\netstandard2.0\eVoucherGDPR.pdb
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR\obj\Debug\netstandard2.0\QRPopUp.xaml.g.cs
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR\obj\Debug\netstandard2.0\XamlC.stamp
