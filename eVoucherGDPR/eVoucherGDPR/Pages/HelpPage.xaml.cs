@@ -1,4 +1,5 @@
-﻿using System;
+﻿using eVoucherGDPR.ViewModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,11 @@ namespace eVoucherGDPR.Pages
         public HelpPage()
         {
             InitializeComponent();
+            BindingContext = new HelpViewModel();
+        }
+        private void OnItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            ((ListView)sender).SelectedItem = null;
         }
     }
 }

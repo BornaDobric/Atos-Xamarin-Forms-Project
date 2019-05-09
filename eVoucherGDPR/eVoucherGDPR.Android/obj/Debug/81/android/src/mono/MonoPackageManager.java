@@ -114,6 +114,8 @@ class MonoPackageManager_Resources {
 		"eVoucherGDPR.dll",
 		"FastAndroidCamera.dll",
 		"FormsViewGroup.dll",
+		"MvvmHelpers.dll",
+		"PropertyChanged.dll",
 		"Rg.Plugins.Popup.dll",
 		"Rg.Plugins.Popup.Droid.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",

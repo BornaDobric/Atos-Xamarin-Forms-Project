@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodel="clr-namespace:eVoucherGDPR.ViewModel"
+             x:Class="eVoucherGDPR.Pages.BetterHomePage"
+             Icon="baseline_home_white_36dp.png"
+             Title="Home"
+             x:Name="betterHomePage">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Frame Grid.Row="0">
+            <Label Text="Nadoplati račun"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   FontSize="18"
+                   TextColor="Black"/>
+        </Frame>
+
+        <Grid Margin="20,5,20,5"
+              Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="70"/>
+                <RowDefinition Height="130"/>
+                <RowDefinition Height="130"/>
+                <RowDefinition Height="140"/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Label Text="Odaberi bon koji želiš kupiti, a kupovinu završi pritiskom na QR kod."
+                   Grid.Row="0"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                   VerticalOptions="Center"
+                   TextColor="Orange"
+                   FontSize="18"/>
+            
+            <Button Text="10 kuna"
+                    TextColor="Black"
+                    FontSize="26"
+                    BackgroundColor="White"
+                    BorderColor="Orange"
+                    CornerRadius="60"
+                    HeightRequest="120"
+                    WidthRequest="120"
+                    BorderWidth="5"
+                    Grid.Row="1"
+                    Clicked="OnSelectValue"
+                    Grid.Column="0"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"/>
+
+            <Button Text="25 kuna"
+                    TextColor="Black"
+                    FontSize="26"
+                    BackgroundColor="White"
+                    BorderColor="Orange"
+                    CornerRadius="60"
+                    HeightRequest="120"
+                    WidthRequest="120"
+                    BorderWidth="5"
+                    Grid.Row="1"
+                    Grid.Column="1"
+                    Clicked="OnSelectValue"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"/>
+            
+            <Button Text="50 kuna"
+                    TextColor="Black"
+                    FontSize="26"
+                    BackgroundColor="White"
+                    BorderColor="Orange"
+                    CornerRadius="60"
+                    Margin="0,8,0,0"
+                    HeightRequest="120"
+                    WidthRequest="120"
+                    BorderWidth="5"
+                    Grid.Row="2"
+                    Grid.Column="0"
+                    Clicked="OnSelectValue"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"/>
+
+            <Button Text="100 kuna"
+                    TextColor="Black"
+                    FontSize="26"
+                    BackgroundColor="White"
+                    BorderColor="Orange"
+                    Margin="0,8,0,0"
+                    CornerRadius="60"
+                    HeightRequest="120"
+                    WidthRequest="120"
+                    BorderWidth="5"
+                    Grid.Row="2"
+                    Grid.Column="1"
+                    Clicked="OnSelectValue"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center"/>
+
+            <Button Text="QR kod"
+                    TextColor="Black"
+                    FontSize="26"
+                    BackgroundColor="White"
+                    BorderColor="Black"
+                    CornerRadius="60"
+                    HeightRequest="120"
+                    WidthRequest="120"
+                    Clicked="OnGenerateQRCode"
+                    BorderWidth="2"
+                    Grid.Row="3"
+                    Grid.Column="0"
+                    Grid.ColumnSpan="2"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Start"/>
+            
+            <!--<Label Text="Odabrali ste bon od: "
+                   TextColor="Black"
+                   x:Name="valueLabel"
+                   FontSize="20"
+                   Grid.Row="4"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Center"/>-->
+            <StackLayout Grid.Row="4"
+                         Grid.Column="0"
+                         Grid.ColumnSpan="2">
+                <Label Text="Odabrali ste bon od: "
+                   TextColor="Black"
+                   x:Name="valueLabel"
+                   FontSize="20"
+                   Grid.Row="4"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Center"/>
+                <Label Text="tren alias"
+                   TextColor="Black"
+                   FontSize="20"
+                   x:Name="trenAlias"
+                   Grid.Row="4"
+                   Grid.Column="0"
+                   Grid.ColumnSpan="2"
+                   HorizontalOptions="Start"
+                   VerticalOptions="Center"/>
+            </StackLayout>
+
+        </Grid>
+    </Grid>
+</ContentPage>

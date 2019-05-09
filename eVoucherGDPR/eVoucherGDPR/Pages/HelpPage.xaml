@@ -4,11 +4,55 @@
              x:Class="eVoucherGDPR.Pages.HelpPage"
              Icon="outline_favorite_white_36dp.png"
              Title="Help">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Help Page"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Frame Grid.Row="0">
+            <Label Text="Pomoć"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   FontSize="18"
+                   TextColor="Black"/>
+        </Frame>
+
+        <StackLayout Spacing="0"
+                     Grid.Row="1">
+            <ListView HasUnevenRows="True"
+                  VerticalOptions="FillAndExpand"
+                  HorizontalOptions="FillAndExpand"
+                  ItemSelected="OnItemSelected"
+                  SeparatorVisibility="Default"
+                  ItemsSource="{Binding HelpList}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal"
+                                         Margin="5,0,10,0">
+                                <Image Source="{Binding Image}" 
+                                           HeightRequest="75" 
+                                           WidthRequest="75"
+                                           Margin="7,2,7,2"/>
+                                <StackLayout>
+                                    <Label Text="{Binding ShortDescription}" 
+                                           TextColor="Orange" 
+                                           HorizontalOptions="Start"
+                                           Margin="0,10,0,0" 
+                                           FontSize="24" />
+                                    <Label Text="{Binding LongDescription}" 
+                                           FontSize="18"
+                                           HorizontalOptions="Start"
+                                           Margin="0,5,0,5" 
+                                           TextColor="Black"/>
+                                </StackLayout>
+                            </StackLayout>
+                        </ViewCell>
+
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
-    </ContentPage.Content>
+    </Grid>
 </ContentPage>

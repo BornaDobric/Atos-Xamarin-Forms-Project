@@ -5,91 +5,48 @@
              Icon="baseline_account_circle_white_36dp.png"
              Title="Account">
 
-    <Grid Padding="5,0"
-          RowSpacing="1"
-          ColumnSpacing="1"
-          Margin="25,0,25,0">
+    <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="70"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
 
-        <Label Text="Željeni alias:"
-               Grid.Row="1"
-               Grid.Column="0"
-               Grid.ColumnSpan="2"
-               HorizontalTextAlignment="Start"
-               VerticalTextAlignment="Center"
-               TextColor="Black"
-               FontSize="22"/>
-
-        <Frame Grid.Row="2"
-               Grid.Column="0"
-               Grid.ColumnSpan="3"
-               Padding="5,20,5,2"
-               BorderColor="AliceBlue">
-            <Entry Placeholder="Alias"
-                   PlaceholderColor="Gray"
-                   FontSize="26"
-                   TextColor="Firebrick"
-                   x:Name="wantedAlias"
-                   HorizontalTextAlignment="Start"
-                   VerticalOptions="Start"/>
+        <Frame Grid.Row="0">
+            <Label Text="Moj profil"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   FontSize="18"
+                   TextColor="Black"/>
         </Frame>
 
-        <Button Text="Pošalji"
-                Grid.Row="3"
-                BackgroundColor="#FFA500"
-                Grid.Column="0"
-                Grid.ColumnSpan="2"
-                BorderColor="Black"
-                BorderWidth="1"
-                HorizontalOptions="Start"
-                VerticalOptions="Start"
-                TextColor="Black"
-                Margin="0,11"
-                CornerRadius="3"
-                FontSize="22"
-                Clicked="OnClickSend"/>
-
-        <BoxView BackgroundColor="DarkRed"
-                 Grid.Row="4"
-                 Grid.Column="0"
-                 Grid.ColumnSpan="3"
-                 HorizontalOptions="FillAndExpand"
-                 VerticalOptions="End"
-                 HeightRequest="2"/>
-        
-        <Label Text="Aktualni alias:"
-               Grid.Row="5"
-               Grid.Column="0"
-               Grid.ColumnSpan="2"
-               HorizontalTextAlignment="Start"
-               VerticalTextAlignment="End"
-               TextColor="Black"
-               FontSize="22"/>
-
-        <Label Text=""
-               Grid.Row="6"
-               Grid.Column="0"
-               Grid.ColumnSpan="2"
-               HorizontalTextAlignment="Start"
-               VerticalTextAlignment="Center"
-               TextColor="Black"
-               FontSize="18"
-               x:Name="actualAlias"
-               FontAttributes="Bold"/>
-
+        <StackLayout Margin="30,20,30,0"
+                     Grid.Row="1">
+            <Image Source="accimage.png"
+               HorizontalOptions="Center"
+               HeightRequest="200"
+               WidthRequest="200"/>
+            <Label Text="Unesite željeni alias: "
+                   TextColor="Black"
+                   FontSize="18"
+                   Margin="0,20,0,0"
+                   HorizontalOptions="Start"/>
+            <Entry Text="{Binding Name, Mode=TwoWay}" 
+                   Placeholder="Alias" 
+                   HorizontalTextAlignment="Start"
+                   x:Name="aliasInput"/>
+            <Label x:Name="newAlias"
+                   TextColor="Red"
+                   FontSize="18"/>
+            <Button HeightRequest="40"
+                    WidthRequest="50"
+                    Text="Promijeni alias"
+                    Margin="0,30,0,0"
+                    Clicked="CheckAliasButtonClicked"
+                    BackgroundColor="Orange"
+                    BorderColor="Salmon"
+                    BorderWidth="2"
+                    TextColor="White"
+                    FontSize="16"/>
+        </StackLayout>
     </Grid>
 </ContentPage>

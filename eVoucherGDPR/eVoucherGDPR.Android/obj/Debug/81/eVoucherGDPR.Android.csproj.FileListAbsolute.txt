@@ -269,6 +269,17 @@ C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR.Android\obj\
 C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR.Android\obj\Debug\81\android\assets\System.Linq.dll
 C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR.Android\obj\Debug\81\android\assets\System.Reflection.dll
 C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR.Android\obj\Debug\81\android\assets\System.Reflection.Extensions.dll
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR.Android\obj\Debug\81\res\drawable\accimage.png
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR.Android\obj\Debug\81\eVoucherGDPR.Android.csproj.Fody.CopyLocal.cache
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR.Android\obj\Debug\81\linksrc\PropertyChanged.dll
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR.Android\obj\Debug\81\android\assets\PropertyChanged.dll
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR.Android\bin\Debug\MvvmHelpers.pdb
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR.Android\obj\Debug\81\linksrc\MvvmHelpers.dll
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR.Android\obj\Debug\81\linksrc\MvvmHelpers.pdb
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR.Android\obj\Debug\81\android\assets\MvvmHelpers.dll
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR.Android\obj\Debug\81\android\assets\MvvmHelpers.pdb
 C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR.Android\obj\Debug\81\android\assets\machine.config
 C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR.Android\obj\Debug\81\stamp\_CompileToDalvik.stamp
 C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR.Android\obj\Debug\81\stamp\_GeneratePackageManagerJava.stamp
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR.Android\obj\Debug\81\res\drawable\moneyimage.png
+C:\Users\DOBRIC\source\repos\eVoucherGDPR\eVoucherGDPR\eVoucherGDPR.Android\obj\Debug\81\res\drawable\checkimage.png

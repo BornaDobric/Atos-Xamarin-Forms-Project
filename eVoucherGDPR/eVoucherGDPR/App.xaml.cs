@@ -1,4 +1,5 @@
-﻿using System;
+﻿using eVoucherGDPR.Pages;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -6,7 +7,6 @@ namespace eVoucherGDPR
 {
     public partial class App : Application
     {
-        public AliasObject MySharedObject;
         public App()
         {
 

@@ -7,9 +7,10 @@
             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
             android:TabbedPage.ToolbarPlacement="Bottom"
             android:TabbedPage.BarItemColor="Black"
-            android:TabbedPage.BarSelectedItemColor="Red">
+            android:TabbedPage.BarSelectedItemColor="Red"
+            android:TabbedPage.BarBackgroundColor="White">
 
-    <local1:HomePage></local1:HomePage>
+    <local1:BetterHomePage></local1:BetterHomePage>
     <local1:AliasPage></local1:AliasPage>
     <local1:HelpPage></local1:HelpPage>
 
